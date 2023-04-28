@@ -26,7 +26,7 @@ if(compiledContractArtifact === null)
 
 const DEPLOYER_PRIVATE_KEY = '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with your Ethereum private key with funds on Layer 2.
 
-const web3 = new Web3('https://godwoken-testnet-v1.ckbapp.dev');
+const web3 = new Web3('https://v1.testnet.godwoken.io/rpc/instant-finality-hack');
 
 const deployerAccount = web3.eth.accounts.wallet.add(DEPLOYER_PRIVATE_KEY);
 

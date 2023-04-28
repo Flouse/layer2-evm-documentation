@@ -3,7 +3,7 @@ name: Issue sUDT
 on: [push, workflow_dispatch]
 
 env:
-  GODWOKEN_WEB3_RPC: https://godwoken-testnet-v1.ckbapp.dev
+  GODWOKEN_WEB3_RPC: https://v1.testnet.godwoken.io/rpc/instant-finality-hack
   CKB_TESTNET_RPC: http://3.235.223.161:18114
   CKB_TESTNET_INDEXER: http://3.235.223.161:18116
 

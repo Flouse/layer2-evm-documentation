@@ -3,7 +3,7 @@ const Web3 = require('web3');
 
 const CompiledContractArtifact = require(`./artifacts/contracts/SudtERC20Proxy.sol/ERC20.json`);
 
-const GODWOKEN_WEB3_RPC = process.env.GODWOKEN_WEB3_RPC || 'https://godwoken-testnet-v1.ckbapp.dev';
+const GODWOKEN_WEB3_RPC = process.env.GODWOKEN_WEB3_RPC || 'https://v1.testnet.godwoken.io/rpc/instant-finality-hack';
 const ACCOUNT_PRIVATE_KEY = process.env.ACCOUNT_PRIVATE_KEY || '<YOUR_ETHEREUM_PRIVATE_KEY>'; // Replace this with your Ethereum private key with funds on Layer 2.
 const SUDT_ID = process.env.SUDT_ID || '<YOUR_SUDT_ID>'; // Replace this with SUDT ID received from depositing SUDT to Layer 2. This should be a number.
 const SUDT_NAME = process.env.SUDT_NAME || 'MyToken';

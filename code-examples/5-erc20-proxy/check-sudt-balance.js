@@ -2,7 +2,7 @@ const { ethers } = require('hardhat');
 
 const ETHEREUM_ADDRESS = process.env.ETHEREUM_ADDRESS || '<YOUR_ETHEREUM_ADDRESS>';
 const SUDT_PROXY_CONTRACT_ADDRESS = process.env.SUDT_PROXY_CONTRACT_ADDRESS || '<YOUR_SUDT_PROXY_CONTRACT_ADDRESS>';
-const GODWOKEN_WEB3_RPC = process.env.GODWOKEN_WEB3_RPC || 'https://godwoken-testnet-v1.ckbapp.dev';
+const GODWOKEN_WEB3_RPC = process.env.GODWOKEN_WEB3_RPC || 'https://v1.testnet.godwoken.io/rpc/instant-finality-hack';
 
 (async () => {
     console.log(`Using Ethereum address: ${ETHEREUM_ADDRESS}`);

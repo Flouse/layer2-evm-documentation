@@ -1,5 +1,5 @@
 export const GODWOKEN_RPC_URL =
-  "https://godwoken-testnet-v1.ckbapp.dev";
+  "https://v1.testnet.godwoken.io/rpc/instant-finality-hack";
 
 export async function getPolyjuiceConfig() {
   return {
