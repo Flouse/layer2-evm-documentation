@@ -4,8 +4,8 @@ on: [push, workflow_dispatch]
 
 env:
   GODWOKEN_WEB3_RPC: https://v1.testnet.godwoken.io/rpc/instant-finality-hack
-  CKB_TESTNET_RPC: http://3.235.223.161:18114
-  CKB_TESTNET_INDEXER: http://3.235.223.161:18116
+  CKB_TESTNET_RPC: https://testnet.ckb.dev/rpc
+  CKB_TESTNET_INDEXER: https://testnet.ckb.dev/rpc
 
 jobs:
   issue-sudt:
