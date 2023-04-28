@@ -1,6 +1,6 @@
 name: sUDT ERC20 Proxy
 
-on: push
+on: [push, workflow_dispatch]
 
 env:
   GODWOKEN_WEB3_RPC: https://godwoken-testnet-v1.ckbapp.dev
